@@ -1,0 +1,183 @@
+body 
+{
+    position: relative;
+    width: 1438px;
+    height: 10150px;
+    background: #FFFFFF;
+}
+
+.header-line 
+{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 99.18%;
+    align-items: center;
+    
+    background: #131313;   
+}
+
+.logo-title
+{
+    position: absolute;
+    left: 5.7%;
+    right: 81.8%;
+    top: 0.36%;
+    bottom: 99.54%;
+    
+    font-family: FuturaDemiC;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    
+    color: #E3B873;  
+}
+
+button {
+background: none;
+border: none;
+cursor: pointer;
+
+}
+
+.nav-button-home
+{
+    position: absolute;
+    left: 24.84%;
+    right: 72.38%;
+    top: 0.36%;
+    bottom: 35%;
+    
+    font-family: FuturaBookC;
+    font-size: 14px;
+    line-height: 16px;
+    
+    color: #E3B873;
+    
+}
+
+.nav-button-projects
+{
+    position: absolute;
+    left: 30.9%;
+    right: 65.07%;
+    top: 0.36%;
+    bottom:35%;
+    
+    font-family: FuturaBookC;
+    font-size: 14px;
+    line-height: 16px;
+    
+    color: #FFFFFF;  
+}
+
+.nav-button-measurement
+{
+    position: absolute;
+    left: 38.2%;
+    right: 55.26%;
+    top: 0.36%;
+    bottom: 35%;
+    
+    font-family: FuturaBookC;
+    font-size: 14px;
+    line-height: 16px;
+    
+    color: #FFFFFF; 
+}
+
+.nav-button-team
+{
+    position: absolute;
+    left: 48.02%;
+    right: 49.62%;
+    top: 0.36%;
+    bottom: 35%;
+    
+    font-family: FuturaBookC;
+    font-size: 14px;
+    line-height: 16px;
+    
+    color: #FFFFFF;
+}
+
+.nav-button-rewiiws
+{
+   position: absolute;
+left: 53.65%;
+right: 42.66%;
+top: 0.36%;
+bottom: 35%;
+
+font-family: FuturaBookC;
+font-size: 14px;
+line-height: 16px;
+
+color: #FFFFFF;
+}
+
+.nav-button-contacts 
+{
+    position: absolute;
+    left: 60.61%;
+    right: 34.73%;
+    top: 0.36%;
+    bottom: 35%;
+    
+    font-family: FuturaBookC;
+    font-size: 14px;
+    line-height: 16px;
+    
+    color: #FFFFFF;
+}
+
+.contact-number
+{
+    position: absolute;
+    left: 69.96%;
+    right: 21.28%;
+    top: 0.36%;
+    bottom: 35%;
+    
+    font-family: FuturaDemiC;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+    text-decoration-line: underline;
+    
+    color: #E3B873;    
+}
+
+.call-request-button 
+{
+    position: absolute;
+    left: 81.85%;
+    right: 6.95%;
+    top: 13.66%;
+    bottom: 35%;
+    width: 161px;
+    height: 37px;
+    
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;     
+}
+
+.title-call-request-button
+{
+    position: absolute;
+    left: 84.14%;
+    right: 9.25%;
+    top: 13.66%;
+    bottom: 35%;
+    width: 161px;
+    
+    font-family: FuturaDemiC;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
