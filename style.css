@@ -1,7 +1,9 @@
 body 
 {
+    margin: 0 auto;
     position: relative;
-    width: 1438px;
+    
+    max-width: 1438px;
     height: 10150px;
     background: #FFFFFF;
 }
@@ -318,8 +320,8 @@ margin-left: -127px;
 
 width: 247px;
 height: 97px;
-    
-    background: #131313;  
+z-index: 1;
+background: #131313;  
 }
 
 .title-scroll-down-button
@@ -338,4 +340,275 @@ line-height: 19px;
 text-transform: uppercase;
 
 color: #FFFFFF;
+}
+/*------------------------------------------------------------------------------------------------------------------------------*/
+.projects
+{
+position: absolute;
+left: -0.03%;
+right: -0.11%;
+top: 7.78%;
+bottom: 81.64%;
+
+background: #131313;
+z-index: 0;
+}
+
+
+.title-completed-projects-block
+{
+    position: absolute;
+    left: 101.45px;
+    top: 156.36px;
+    
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    
+    color: #E3B873;
+    
+}
+
+.completed-projects-info-block
+{
+    position: absolute;
+    left: 101.45px;
+    top: 256.36px;
+
+font-family: FuturaBookC;
+font-size: 18px;
+line-height: 29px;
+
+color: #FFFFFF;
+}
+
+.text-city
+{
+    
+    top: 404.36px;
+    left: 99.59px;
+
+    font-size: 18px;
+}
+
+.info-text-city
+{
+    top: 435.36px;
+    left: 99.59px;
+
+    font-size: 15px;
+}
+
+.text-area
+{
+    top: 404.36px;
+    left: 290.98px;
+
+    font-size: 18px;  
+}
+
+.info-text-area
+{
+    top: 435.36px;
+    left: 290.98px;
+
+    font-size: 15px;  
+}
+
+.text-time
+{
+    top: 511.36px;
+    left: 99.59px;
+
+    font-size: 18px;   
+}
+
+.info-text-time
+{
+    top: 542.36px;
+    left: 99.59px;
+
+    font-size: 15px;   
+}
+
+.text-cost
+{
+    top: 511.36px;
+    left: 290.98px;
+
+    font-size: 18px;  
+}
+
+.info-text-cost
+{
+    top: 542.36px;
+    left: 290.98px;
+
+    font-size: 15px;  
+}
+
+.title-project 
+{
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: white;    
+}
+
+.title-admiral
+{
+    position: absolute;
+    right: 484px;
+    top: -45px; 
+    width: 194px;
+    color: #E3B873;
+}
+
+.title-sochi
+{
+    position: absolute;
+    right: 258px;
+    top: -45px; 
+    width: 209px;
+    color: white;
+}
+
+.title-patriotic
+{
+    position: absolute;
+    right: 30px;
+    top: -45px; 
+    width: 199px;
+    color: white;
+}
+
+.image-project
+{
+    position: absolute;
+    right: 0px;
+    
+}
+
+.sochi-project
+{
+
+height: 482px;
+width: 679px;
+
+}
+
+.patriotic-project
+{
+    height: 482px;
+    width: 679px;  
+}
+
+#carousel
+{
+    display: inline-block;
+    position: absolute;
+    margin-top: 170px;
+    left: 592.05px;
+    width: 680px;
+	height: 483px;
+}
+
+.animate{
+	-webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    transition-duration: 1s;
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+}
+
+
+#controls{
+		position: relative;
+		left: 300px;
+	    width: 200px;
+}
+
+#left
+{
+    position: relative;
+    left: 0px;
+    top: 270px;
+   
+    width: 77px;
+    height: 77px;
+    border-radius: 50px;
+    background-image: url("icons/slider-next.svg");
+}
+
+#index{
+	display: inline-block;
+    width: 33.3%;
+    text-align: center;
+}
+
+#right
+{
+    position: relative;
+    
+    top: 270px;
+    left: 0px;
+    width: 77px;
+    height: 77px;
+    border-radius: 50px;
+    background-image: url("icons/slider-next.svg");
+    transform: scale(-1, 1); 
+}
+
+/*--------------------------------------------------------------------------*/
+
+.measurement
+{
+    position: absolute;
+
+
+background: #e2dcdc;
+z-index: 0;
+width: 1438px;
+height: 800.32px;
+top: 1863px;
+}
+
+.job-tracking-info
+{
+    position: absolute;
+    left: 26.36%;
+    right: 26.29%;
+    top: 21.38%;
+    bottom: 77.33%;
+
+    width: 681px;
+    
+    font-family: FuturaBookC;
+    font-size: 20px;
+    line-height: 34px;
+    text-align: center;
+    
+    color: #363636;
+}
+
+.form-trackin-application
+{
+position: absolute;
+left: 337px; 
+top: 553.92px;
+font-family: FuturaBookC;
+font-size: 15px;
+line-height: 20px;
+
+color: rgba(54, 54, 54, 0.5);
 }

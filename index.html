@@ -51,6 +51,56 @@
                     <button class="submit-application-button title-submit-application-button">SUBMIT YOR APLICATION</button>
                     <button class="scroll-down-button title-scroll-down-button">SCROLL DOWN</button>
                 </div>
+            </section>    
+            <section class="projects">
+                <h1 class="title-completed-projects-block">COMPLETED<br> PROJECTS</h1>
+                <p class="completed-projects-info-block">Only a small part of the work performed by our company is<br> 
+                    presented on the site. For 14 years on in the construction<br> 
+                    market we have made happy more than 1000 families
+                </p>
+                <h3 class="title-completed-projects-block text-city">City:</h3>
+                <p class="completed-projects-info-block info-text-city">Rostov-on-Don<br> LCD admiral</p>
+                <h3 class="title-completed-projects-block text-area">apartment area:</h3>
+                <p class="completed-projects-info-block info-text-area">81 m2</p>
+                <h3 class="title-completed-projects-block text-time">Repair time:</h3>
+                <p class="completed-projects-info-block info-text-time">3.5 months</p>
+                <h3 class="title-completed-projects-block text-cost">Repair Cost:</h3>
+                <p class="completed-projects-info-block info-text-cost">Upon request</p>
+                 <div id="carousel" class="animate">
+                    <div class="title-project animate"><button class="title-admiral">ROSTOV-ON-DON ADMIRAL</button>
+                        <img class= "image-project admiral-project" src="img/rostov-on-don-admiral.png">
+                        <div class="project-description"></div>
+                    </div>
+                    <div class="title-project animate"><button class="title-sochi">SOCHI THEIVES</button>
+                        <img class= "image-project sochi-project" src="img/sochi-thieves.png">
+                        <div class="project-description"></div>         
+                    </div>
+                    <div class="title-project animate"><button class="title-patriotic">ROSTOV-ON-DON PATRIOTIC</button>
+                        <img class= "image-project patriotic-project" src="img/rostov-on-don-patriotic.png">
+                        <div class="project-description"></div> 
+                    </div>
+                    <br>
+                    <div id="controls">
+                            <button id="left" onclick="left(this)"></button>
+                            <button id="right" onclick="right(this)"></button>
+                    </div>
+                </div>
+            </section>
+            <section class="measurement">
+            <p class="job-tracking-info">At each facility, a camera is installed that broadcasts the progress of work on the clock.<br>
+                At any time, you can go to our website and monitor the progress of work in your<br>
+                 apartment. You can watch the live broadcast from one of our facilities!<br>
+                  Leave a request below and you will receive a link to the broadcast. 
+            </p>
+           <form class="form-trackin-application">
+            <input type="text" value="What is your name:">Name</input>
+            <input type="text" value="Your phone number:">Phone</input>
+            <button type="text">SBMIT</button>
+
+           </form>
+
+
+            </section>
 
         </main>
         <footer>
@@ -86,5 +136,6 @@
                     </ul> 
             </div>-->
         </footer>
+        <script src="java.js" defer></script>
     </body>
 </html>
