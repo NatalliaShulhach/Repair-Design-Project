@@ -2,15 +2,10 @@ body
 {
     margin: 0 auto;
     position: relative;
-    
+    padding: 10px;
     max-width: 1438px;
     height: 10150px;
     background: #FFFFFF;
-}
-
-main 
-{
-
 }
 
 li 
@@ -349,7 +344,7 @@ left: -0.03%;
 right: -0.11%;
 top: 7.78%;
 bottom: 81.64%;
-
+width: 1458px;
 background: #131313;
 z-index: 0;
 }
@@ -489,86 +484,86 @@ color: #FFFFFF;
     color: white;
 }
 
-.image-project
+.carousel 
 {
     position: absolute;
-    right: 0px;
-    
-}
-
-.sochi-project
-{
-
-height: 482px;
-width: 679px;
-
-}
-
-.patriotic-project
-{
+    left: 38.59%;
+    top: 107px;
+    width: 895px;
     height: 482px;
-    width: 679px;  
-}
-
-#carousel
-{
-    display: inline-block;
-    position: absolute;
-    margin-top: 170px;
-    left: 592.05px;
-    width: 680px;
-	height: 483px;
-}
-
-.animate{
-	-webkit-transition-duration: 1s;
-    -moz-transition-duration: 1s;
-    -o-transition-duration: 1s;
-    transition-duration: 1s;
-    -webkit-transition-property: -webkit-transform;
-    -moz-transition-property: -moz-transform;
-    -o-transition-property: -o-transform;
-    transition-property: transform;
-}
-
-
-#controls{
-		position: relative;
-		left: 300px;
-	    width: 200px;
-}
-
-#left
-{
-    position: relative;
-    left: 0px;
-    top: 270px;
-   
-    width: 77px;
-    height: 77px;
-    border-radius: 50px;
-    background-image: url("icons/slider-next.svg");
-}
-
-#index{
-	display: inline-block;
-    width: 33.3%;
-    text-align: center;
-}
-
-#right
-{
-    position: relative;
+    padding: 0;
+    border: 0px solid #CCC;
     
-    top: 270px;
-    left: 0px;
-    width: 77px;
-    height: 77px;
-    border-radius: 50px;
-    background-image: url("icons/slider-next.svg");
-    transform: scale(-1, 1); 
-}
+   
+    overflow: hidden;
+  }
 
+.carousel img {
+    width: 679px;
+    height: 482px;
+    display: block;
+    padding-left: 30px;
+  }
+
+.arrow 
+{
+position: absolute;
+left: 93.05%;
+right: 3.15%;
+top: 50%;
+bottom: 76.91%;
+
+width: 45px;
+height: 45px;
+
+border-radius: 50%;
+background: #E3B873;
+box-shadow: 0px 0px 15px rgba(227, 184, 115, 0.5);
+    
+    display: block;
+}
+      
+.arrow:focus 
+{
+    outline: none;
+}
+      
+.arrow:hover 
+{
+background: #ccc;
+cursor: pointer;
+}
+      
+.prev 
+{
+left: 7px;
+}
+      
+.next 
+{
+right: 7px;
+}
+      
+.gallery 
+{
+width: 2000px;
+overflow: hidden;
+}
+      
+.gallery ul 
+{
+    position: absolute;
+    height: 500px;
+    width: 9999px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    transition: margin-left 400ms;
+    font-size: 0;
+}
+.gallery li {
+    display: inline-block;
+  }
 /*--------------------------------------------------------------------------*/
 
 .measurement

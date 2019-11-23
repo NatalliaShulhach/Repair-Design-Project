@@ -13,6 +13,7 @@
                 <div class="logo-title">
                     <h4>IC "REPAIR DESIGN PROJECT</h4>
                 </div>
+                <nav>
                     <ul>
                         <li>
                             <button class="nav-button-home">HOME</button>
@@ -39,6 +40,7 @@
                             <button class="call-request-button title-call-request-button">REQUEST A CALL</button>
                         </li>
                    </ul> 
+                </nav>>   
             </div>     
         </header>
         <main>
@@ -66,25 +68,39 @@
                 <p class="completed-projects-info-block info-text-time">3.5 months</p>
                 <h3 class="title-completed-projects-block text-cost">Repair Cost:</h3>
                 <p class="completed-projects-info-block info-text-cost">Upon request</p>
-                 <div id="carousel" class="animate">
-                    <div class="title-project animate"><button class="title-admiral">ROSTOV-ON-DON ADMIRAL</button>
-                        <img class= "image-project admiral-project" src="img/rostov-on-don-admiral.png">
-                        <div class="project-description"></div>
-                    </div>
-                    <div class="title-project animate"><button class="title-sochi">SOCHI THEIVES</button>
-                        <img class= "image-project sochi-project" src="img/sochi-thieves.png">
-                        <div class="project-description"></div>         
-                    </div>
-                    <div class="title-project animate"><button class="title-patriotic">ROSTOV-ON-DON PATRIOTIC</button>
-                        <img class= "image-project patriotic-project" src="img/rostov-on-don-patriotic.png">
-                        <div class="project-description"></div> 
-                    </div>
-                    <br>
-                    <div id="controls">
-                            <button id="left" onclick="left(this)"></button>
-                            <button id="right" onclick="right(this)"></button>
-                    </div>
-                </div>
+
+                <div id="carousel" class="carousel">
+                    
+                        <div class="gallery">
+                            <ul class="images">
+                                <li><img  src="img/rostov-on-don-admiral.png">admiral</li>
+                                <li><img  src="img/sochi-thieves.png"></li>
+                                <li><img  src="img/rostov-on-don-patriotic.png"></li>
+                            </ul>
+                        </div>  
+                        <button class="arrow prev"></button>
+                        <button class="arrow next"><img src="icons/slider-next.svg"></button>
+                </div>        
+
+
+                           <!---- <button class="title-admiral">ROSTOV-ON-DON ADMIRAL</button>
+                            
+                            <div class="project-description"></div>
+                       
+                      
+                            <button class="title-sochi">SOCHI THEIVES</button>
+                            
+                            <div class="project-description"></div>         
+                       
+                        
+                            <button class="title-patriotic">ROSTOV-ON-DON PATRIOTIC</button>
+                    
+                           <div class="project-description"></div> 
+                       
+                        <br>
+                    
+    
+                    </div> --->
             </section>
             <section class="measurement">
             <p class="job-tracking-info">At each facility, a camera is installed that broadcasts the progress of work on the clock.<br>
@@ -96,6 +112,7 @@
             <input type="text" value="What is your name:">Name</input>
             <input type="text" value="Your phone number:">Phone</input>
             <button type="text">SBMIT</button>
+            <>
 
            </form>
 
