@@ -1,9 +1,10 @@
+
 body 
 {
     margin: 0 auto;
     position: relative;
     padding: 10px;
-    max-width: 1438px;
+    width: 1438px;
     height: 10150px;
     background: #FFFFFF;
 }
@@ -16,6 +17,7 @@ li
 .header-line 
 {
     position: absolute;
+    width: 1438px;
     left: 0%;
     right: 0%;
     top: 0%;
@@ -191,19 +193,22 @@ color: #FFFFFF;
 .instagram-block
 {
     position: absolute;
-    left: -312px;
-    top: 394px;
-    width: 708px;
-    height: 84px;
+    left: 0px;
+    top: 83px;
+    width: 82px;
+    height: 707px;
     background: #131313;
-    transform: rotate(-90deg);
+    
 }
 
 .title-instagram
 {
     position: absolute;
-    left: 391px;
-    top: 35px;
+
+    left: 60%;
+    right: 40%;
+    top: 30%;
+    bottom: 70%;
     
     font-family: FuturaDemiC;
     font-size: 14px;
@@ -211,15 +216,15 @@ color: #FFFFFF;
     
     color: #E3B873;
     
-    transform: rotate(180deg);
+    transform: rotate(90deg);
      
 }
 
 .info-block 
 {
 position: absolute;
-
-left: 5.7%;
+width: 1356px;
+left: 5.63%;
 right: 0%;
 top: 0.82%;
 bottom: 92.22%;
@@ -336,15 +341,16 @@ text-transform: uppercase;
 
 color: #FFFFFF;
 }
+
 /*------------------------------------------------------------------------------------------------------------------------------*/
 .projects
 {
 position: absolute;
-left: -0.03%;
-right: -0.11%;
+left: 0%;
+right: 0%;
 top: 7.78%;
 bottom: 81.64%;
-width: 1458px;
+width: 1438px;
 background: #131313;
 z-index: 0;
 }
@@ -353,8 +359,10 @@ z-index: 0;
 .title-completed-projects-block
 {
     position: absolute;
-    left: 101.45px;
-    top: 156.36px;
+    left: 7.02%;
+right: 75.38%;
+top: 9.52%;
+bottom: 89.83%;
     
     font-family: Yeseva One;
     font-style: normal;
@@ -370,13 +378,14 @@ z-index: 0;
 
 .completed-projects-info-block
 {
-    position: absolute;
-    left: 101.45px;
-    top: 256.36px;
-
-font-family: FuturaBookC;
-font-size: 18px;
-line-height: 29px;
+position: absolute;
+left: 6.87%;
+right: 55.08%;
+top: 17.95%;
+bottom: 95.17%;
+     font-family: FuturaBookC;
+     font-size: 18px;
+   line-height: 29px;
 
 color: #FFFFFF;
 }
@@ -402,6 +411,8 @@ color: #FFFFFF;
 {
     top: 404.36px;
     left: 290.98px;
+
+    width: 213px;
 
     font-size: 18px;  
 }
@@ -434,7 +445,7 @@ color: #FFFFFF;
 {
     top: 511.36px;
     left: 290.98px;
-
+    width: 213px;
     font-size: 18px;  
 }
 
@@ -460,8 +471,10 @@ color: #FFFFFF;
 .title-admiral
 {
     position: absolute;
-    right: 484px;
-    top: -45px; 
+    left: 41.24%;
+    right: 45.27%;
+    top: 0%;
+    bottom: 100%;
     width: 194px;
     color: #E3B873;
 }
@@ -469,17 +482,22 @@ color: #FFFFFF;
 .title-sochi
 {
     position: absolute;
-    right: 258px;
-    top: -45px; 
+left: 54.94%;
+right: 33.48%;
+top: 8.84%;
+bottom: 91%;
+
     width: 209px;
     color: white;
 }
 
 .title-patriotic
 {
-    position: absolute;
-    right: 30px;
-    top: -45px; 
+position: absolute;
+left: 70.72%;
+right: 15.44%;
+top: 8.84%;
+bottom: 91%;
     width: 199px;
     color: white;
 }
@@ -487,14 +505,16 @@ color: #FFFFFF;
 .carousel 
 {
     position: absolute;
-    left: 38.59%;
-    top: 107px;
-    width: 895px;
-    height: 482px;
+    left: 39.50%;
+    right: 0%;
+    top: 11.52%;
+    bottom: 85.73%;
+
+    width: 845px;
+    height: 510px;
     padding: 0;
     border: 0px solid #CCC;
     
-   
     overflow: hidden;
   }
 
@@ -503,6 +523,7 @@ color: #FFFFFF;
     height: 482px;
     display: block;
     padding-left: 30px;
+    padding-bottom: 0px;
   }
 
 .arrow 
@@ -510,8 +531,8 @@ color: #FFFFFF;
 position: absolute;
 left: 93.05%;
 right: 3.15%;
-top: 50%;
-bottom: 76.91%;
+top: 45.55%;
+bottom: 55.91%;
 
 width: 45px;
 height: 45px;
@@ -564,27 +585,45 @@ overflow: hidden;
 .gallery li {
     display: inline-block;
   }
-/*--------------------------------------------------------------------------*/
+
+  video 
+{
+position: absolute;
+left: 21.63%;
+right: 21.56%;
+top: 80%;
+bottom: 20%;
+
+width: 817px;
+height: 434px;
+
+background: rgba(0, 0, 0, 0.8);
+z-index: 1;
+}
 
 .measurement
 {
     position: absolute;
+    left: 0%;
+    right: 100%;
+    top: 18.37%;
+    bottom: 78.31%;
+    background: #ffffff;
 
+    width: 1438px;
+    height: 2615.79px;
 
-background: #e2dcdc;
-z-index: 0;
-width: 1438px;
-height: 800.32px;
-top: 1863px;
+    z-index: -1;
 }
+
 
 .job-tracking-info
 {
     position: absolute;
     left: 26.36%;
     right: 26.29%;
-    top: 21.38%;
-    bottom: 77.33%;
+    top: 12.38%;
+    bottom: 88.33%;
 
     width: 681px;
     
@@ -598,12 +637,619 @@ top: 1863px;
 
 .form-trackin-application
 {
+    position: absolute;
+    left: 15.3%;
+    right: 54.46%;
+    top: 23%;
+    bottom: 77%;
+    width: 700px;
+    color: rgba(54, 54, 54, 1);
+}
+
+.title-name 
+{
+    position: absolute;
+    
+    left: 23.3%;
+    right: 54.46%;
+    top: 23.6%;
+    bottom: 76.29%;
+    
+    font-family: FuturaBookC;
+    font-size: 15px;
+    line-height: 20px;
+    
+    color: rgba(54, 54, 54, 0.5);
+}
+
+.title-phone 
+{
+    position: absolute;
+    left: 63.39%;
+    right: 42.77%;
+    top: 23.6%;
+    bottom: 76.29%;
+    
+    font-family: FuturaBookC;
+    font-size: 15px;
+    line-height: 20px;
+    
+    color: rgba(54, 54, 54, 0.5);
+    
+    transform: rotate(-0.07deg);
+}
+
+.field-form
+{  
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: none;
+    border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+
+    margin: 30px 0px 0 0px;
+    padding: 0 0px 0px 0px;
+
+    left: 43.39%;
+    right: 52.77%;
+
+    width: 150px;
+    height: 17px;
+    
+    font-family: FuturaBookC;
+    font-size: 18px;
+    line-height: 24px;
+    
+    color: #0e0d0d;  
+}
+
+.form-phone 
+{
 position: absolute;
-left: 337px; 
-top: 553.92px;
+left: 63.39%;
+right: 42.77%;
+top: 53.78%;
+bottom: 46.05%;
+
+font-family: FuturaBookC;
+font-size: 18px;
+
+
+color: #363636;
+
+}
+
+.form-name
+{
+position: absolute;
+left: 23.3%;
+right: 67.15%;
+top: 23.78%;
+bottom: 76.05%;
+
+width: 150px;
+
+font-family: FuturaBookC;
+font-size: 18px;
+line-height: 24px;
+
+color: #363636;
+
+}
+
+.submit
+{
+    position: absolute;
+left: 100%;
+right: 0%;
+top: 40%;
+bottom: 60%;
+
+width: 200px;
+height: 51px;
+background: #E3B873;
+box-shadow: 0px 15px 15px rgba(227, 184, 115, 0.15);
+border-radius: 2px;
+}
+
+.text-submit 
+{
+    color: #FFFFFF;
+}
+
+.measurement-checkbox
+{
+position: absolute;
+left: 45%;
+right: 55%;
+
+margin: 93px 0px 0 0px;
+padding: 0 0px 0px 0px;
+
+background: #E3B873;
+border-radius: 1px;
+}
+
+.checkbox-text
+{
+    position: absolute;
+    left: 49%;
+    right: 51%;
+    
+
+    width: 270px;
+    height: 51px;
+
+    margin: 90px 0px 0 0px;
+    padding: 0 0px 0px 0px;
+
+    
+    font-family: FuturaBookC;
+    font-size: 16px;
+    
+    color: #181818; 
+}
+
+.types-of-repair
+{
+    position: absolute;
+    left: 0%;
+    right: 100%;
+    top: 20%;
+    bottom: 80%;
+
+}
+
+.types-of-repair-title
+{
+position: absolute;
+left: 40.96%;
+right: 41.17%;
+top: 33%;
+bottom: 67%;
+
+font-family: Yeseva One;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 28px;
+text-align: center;
+text-transform: uppercase;
+
+color: #181818;
+
+}
+
+.tools-img 
+{
+    position: absolute;
+    left: 48.89%;
+    right: 49.17%;
+    top: 34%;
+    bottom: 66%;
+    
+    width: 28px;
+    height: 27.99px;
+
+    background-image: url("icons/tools-img.svg");
+
+    z-index: 3;
+}
+
+.designer-repair-img
+{
+    position: absolute;
+    left: 65.79%;
+    right: 6.95%;
+    top: 40%;
+    bottom: 60%;
+}
+
+.text-designer-repair
+{
+position: absolute;
+left: 66.59%;
+right: 67.8%;
+top: 50.5%;
+bottom: 35.28%;
+
+width: 330px;
+height: 286px;
+
+background: #FFFFFF;
+box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+}
+
+.title-designer-repair
+{
+    position: absolute;
+    left: 11.61%;
+    right: 69.82%;
+    top: 12.48%;
+    bottom: 67.76%;
+    
+    width: 267px;
+    height: 178px;
+    
+    margin: 0px 29px 0px 34px;
+        
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+        
+    color: #363636;    
+}
+
+.redecorating-img
+{
+    position: absolute;
+    left: 7.09%;
+    right: 65.65%;
+    top: 40%;
+    bottom: 60%;
+}
+
+.text-redecorating
+{
+position: absolute;
+left: 8%;
+right: 67.8%;
+top: 50.5%;
+bottom: 35.28%;
+
+width: 330px;
+height: 286px;
+
+background: #FFFFFF;
+box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+}
+
+.title-redecorating
+{
+position: absolute;
+left: 11.61%;
+right: 69.82%;
+top: 12.48%;
+bottom: 67.76%;
+
+width: 267px;
+height: 178px;
+
+margin: 0px 29px 0px 34px;
+    
+font-family: Yeseva One;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 25px;
+    
+color: #363636;  
+}
+
+.overhaul-img
+{
+position: absolute;
+left: 36.44%;
+right: 36.3%;
+top: 40%;
+bottom: 60%;
+}
+
+.text-overhaul
+{
+position: absolute;
+left: 37.3%;
+right: 67.8%;
+top: 50.5%;
+bottom: 35.28%;
+
+width: 330px;
+height: 286px;
+
+background: #FFFFFF;
+box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+}
+
+.title-overhaul
+{
+position: absolute;
+left: 11.61%;
+right: 69.82%;
+top: 12.48%;
+bottom: 67.76%;
+
+width: 267px;
+height: 178px;
+
+margin: 0px 29px 0px 34px;
+    
+font-family: Yeseva One;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 25px;
+    
+color: #363636;
+    
+}
+
+.info-list
+{
+position: absolute;
+left: 11.61%;
+right: 69.82%;
+top: 23.48%;
+bottom: 67.76%;
+
+width: 267px;
+height: 178px;
+
+margin: 0px 29px 49px 34px;
+
 font-family: FuturaBookC;
 font-size: 15px;
-line-height: 20px;
+line-height: 25px;
 
-color: rgba(54, 54, 54, 0.5);
+color: #959595;
+}
+
+.redecorating-cost
+{
+    position: absolute;
+    left: 8%;
+    right: 92%;
+    top: 61%;
+    bottom: 39%;
+
+    width: 228px;
+    height: 54px;
+
+    background: #E3B873;
+    box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3); 
+}
+
+.overhaul-cost
+{
+position: absolute;
+left: 37.3%;
+right: 10%;
+top: 61%;
+bottom: 39%;
+
+width: 228px;
+    height: 54px;
+
+background: #E3B873;
+box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+}
+
+.designer-repair-cost
+{
+    position: absolute;
+    left: 66.6%;
+    right: 10%;
+    top: 61%;
+    bottom: 39%;
+    
+    width: 228px;
+    height: 54px;
+    
+    background: #E3B873;
+    box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+    }
+
+.offer-left-block
+{
+position: absolute;
+left: 2.82%;
+right: 97.78%;
+top: 70%;
+bottom: 59.43%;
+
+width: 1006px;
+height: 645px;
+
+    background-image: url("img/building.png"), no-repeat;
+}
+
+.metering-application-form
+{
+    position: absolute;
+    left: 80%;
+    right: 6.88%;
+    top: 16.26%;
+    bottom: 59.72%;
+
+  width: 507.85px;
+  height: 503.06px;
+    
+    background: #131313;
+    box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);   
+}
+
+.application-form-name 
+{
+position: absolute;
+top: 6%;
+bottom: 94%;
+
+width: 507.85px;
+height: 503.06px;
+
+font-family: FuturaDemiC;
+font-size: 20px;
+line-height: 25px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.offer-title-name
+{
+    position: absolute;
+    left: 11.34%;
+    right: 88.93%;
+    top: 20.38%;
+    bottom: 63.46%;
+    
+    font-family: FuturaBookC;
+    font-size: 15px;
+    line-height: 20px;
+    
+    color: rgba(255, 255, 255, 0.5);
+    ; 
+}
+
+.offer-form-name
+{
+    position: absolute;
+    left: 11.34%;
+    right: 88.93%;
+    top: 26.61%;
+    bottom: 63.14%;
+    background: none;
+
+    width: 408px;
+    height: 25px;
+    
+    font-family: FuturaMediumC;
+    font-size: 18px;
+    line-height: 25px;
+    
+    color: rgba(255, 255, 255);    
+}
+
+.offer-title-phone
+{
+    position: absolute;
+    left: 11.34%;
+    right: 35.47%;
+    top: 40%;
+    bottom: 62.49%;
+
+    width: 408px;
+height: 25px;
+    
+    font-family: FuturaBookC;
+    font-size: 15px;
+    line-height: 20px;
+    
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.offer-form-phone
+{
+position: absolute;
+left: 11.34%;
+right: 28.51%;
+top: 45%;
+bottom: 62.18%;
+
+width: 408px;
+height: 25px;
+
+background: none;
+
+font-family: FuturaMediumC;
+font-size: 18px;
+line-height: 25px;
+
+color: #FFFFFF;
+}
+
+.offer-title-url
+{
+    position: absolute;
+    left: 11.34%;
+    right: 35.47%;
+    top: 60%;
+    bottom: 62.49%;
+
+    width: 408px;
+height: 25px;
+    
+    font-family: FuturaBookC;
+    font-size: 15px;
+    line-height: 20px;
+    
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.offer-form-url
+{
+position: absolute;
+left: 11.34%;
+right: 28.51%;
+top: 65%;
+bottom: 62.18%;
+
+width: 408px;
+height: 25px;
+
+background: none;
+
+font-family: FuturaMediumC;
+font-size: 18px;
+line-height: 25px;
+
+color: #FFFFFF;
+}
+
+.offer-checkbox
+{
+    position: absolute;
+    left: 11.34%;
+    right: 37.41%;
+    top: 75%;
+    bottom: 60.88%;
+    
+    background: #E3B873;
+    border-radius: 1px;
+}
+
+.offer-checkbox-text
+{
+    position: absolute;
+    left: 15.34%;
+    right: 18.8%;
+    top: 74.5%;
+    bottom: 60.88%;
+    
+    font-family: FuturaBookC;
+    font-size: 16px;
+    line-height: 22px;
+    
+    color: #FFFFFF;
+}
+
+.offer-submit
+{
+    position: absolute;
+    left: 50%;
+    right: 10.29%;
+    top: 85%;
+    bottom: 59.99%;
+
+    width: 213px;
+    height: 51px;
+
+    
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15); 
+}
+
+.product-style
+{
+    position: absolute;
+left: 0%;
+right: -0.14%;
+top: 100%;
+bottom: 47.74%;
+
+width: 1438px;
+height: 864px;
+
+background-image: url("background/sector3-bg.png");
 }

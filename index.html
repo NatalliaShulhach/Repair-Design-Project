@@ -73,52 +73,116 @@
                     
                         <div class="gallery">
                             <ul class="images">
-                                <li><img  src="img/rostov-on-don-admiral.png">admiral</li>
-                                <li><img  src="img/sochi-thieves.png"></li>
-                                <li><img  src="img/rostov-on-don-patriotic.png"></li>
+                                <li><img  src="img/rostov-on-don-admiral.png"><button class="title-admiral">ROSTOV-ON-DON ADMIRAL</button></li>
+                                <li><img  src="img/sochi-thieves.png"><button class="title-sochi">SOCHI THEIVES</button></li>
+                                <li><img  src="img/rostov-on-don-patriotic.png"> <button class="title-patriotic">ROSTOV-ON-DON PATRIOTIC</button></li>
                             </ul>
                         </div>  
                         <button class="arrow prev"></button>
                         <button class="arrow next"><img src="icons/slider-next.svg"></button>
-                </div>        
-
-
-                           <!---- <button class="title-admiral">ROSTOV-ON-DON ADMIRAL</button>
-                            
-                            <div class="project-description"></div>
-                       
-                      
-                            <button class="title-sochi">SOCHI THEIVES</button>
-                            
-                            <div class="project-description"></div>         
-                       
-                        
-                            <button class="title-patriotic">ROSTOV-ON-DON PATRIOTIC</button>
-                    
-                           <div class="project-description"></div> 
-                       
-                        <br>
-                    
-    
-                    </div> --->
+                    </div>        
+                    <video src = "https://www.youtube.com/watch?v=nFWxi3zbsNo"></video>
             </section>
             <section class="measurement">
+                    
             <p class="job-tracking-info">At each facility, a camera is installed that broadcasts the progress of work on the clock.<br>
                 At any time, you can go to our website and monitor the progress of work in your<br>
                  apartment. You can watch the live broadcast from one of our facilities!<br>
                   Leave a request below and you will receive a link to the broadcast. 
             </p>
-           <form class="form-trackin-application">
-            <input type="text" value="What is your name:">Name</input>
-            <input type="text" value="Your phone number:">Phone</input>
-            <button type="text">SBMIT</button>
-            <>
+           <form action="#" class="form-trackin-application">
+                <span class="title-name">Name</span>
+               <label>
+                   <input type="text" placeholder="What is your name:" required class="field-form form-name"></input>
+                </label>
+                <span class="title-phone">Phone</span>
+                <label>
+                    <input type="tel" name="tel" id="tel" placeholder="Your phone number:" required class="field-form form-phone "></input>
+                </label>
+                <button type="text" class="submit"><span class="text-submit">SUBMIT</span></button>
+                <input type="checkbox"  class="measurement-checkbox"><span class="checkbox-text">I agree to the processing of personal data</span></input>
+            </form>
+                <div>
+                    <span class="types-of-repair-title">TYPES OF REPAIR</span>
+                    <P class="tools-img"></P>
+                    <div>
+                        <img class="redecorating-img" src="img/redecorating-img.png">
+                        <ul class="text-redecorating"><span class="title-redecorating">Redecorating</span>
+                            <span class="info-list">
+                            <li>• Dismantling of old coatings</li>
+                            <li>• Wallpapering</li>
+                            <li>• Painting walls and ceilings</li>
+                            <li>• Laying flooring</li>
+                            <li>• Replacing plumbing</li>
+                            <li>• Replacing sockets and switches</li>
+                            <li>• Replacing doors</li>
+                            </span>
+                        </ul>
+                        <button class="redecorating-cost">from 900 rub / m2 </button>
+                    </div>
+                    <div>
+                        <img class="overhaul-img" src="img/overhaul-img.png">
+                            <ul class="text-overhaul"><span class="title-overhaul">Overhaul</span>
+                                <span class="info-list">
+                                <li>• Dismantling of old coatings</li>
+                                <li>• Wallpapering</li>
+                                <li>• Painting walls and ceilings</li>
+                                <li>• Laying flooring</li>
+                                <li>• Replacing plumbing</li>
+                                <li>• Replacing sockets and switches</li>
+                                <li>• Replacing doors</li>
+                                </span>
+                            </ul>  
+                            <button class="overhaul-cost">from 1800 rub / m2</button> 
+                    </div>
+                    <div>
+                            <img class="designer-repair-img" src="img/designer-repair-img.png">
+                            <ul class="text-designer-repair"><span class="title-designer-repair">Designer Repair</span>
+                                <span class="info-list">
+                                <li>• Dismantling of old coatings</li>
+                                <li>• Wallpapering</li>
+                                <li>• Painting walls and ceilings</li>
+                                <li>• Laying flooring</li>
+                                <li>• Replacing plumbing</li>
+                                <li>• Replacing sockets and switches</li>
+                                <li>• Replacing doors</li>
+                            </span>
+                            </ul>
+                        <button class="designer-repair-cost">from 4000 rub / m2</button>
+                    </div>
+                </div>
 
-           </form>
-
-
+                <div class="company-offer">
+                    <div class="offer-left-block">
+                        <img class="circle" src="img/circle.png">
+                   </div>
+                   <div class="offer-left-block">
+                        <form action="#" method="post" class = "metering-application-form">
+                        <span class="application-form-name">Leave a request for free<br> departure of the measurer</span>
+                        <span class="offer-title-name">Name</span>
+               <label>
+                   <input type="text" placeholder="What is your name:" required class="offer-form-name"></input>
+                </label>
+                <span class="offer-title-phone">Phone</span>
+                <label>
+                    <input type="tel" name="tel" id="tel" placeholder="Your phone number:" required class="offer-form-phone"></input>
+                </label>
+                <span class="offer-title-url">URL</span>
+                <label>
+                    <input type="url" name="tel" placeholder="Your email:" required class="offer-form-url"></input>
+                </label>
+                <input type="checkbox"  class="offer-checkbox"><span class="offer-checkbox-text">I agree to the processing of personal data</span>
+                </input>
+                <button type="text" class="offer-submit"><span class="text-submit">SUBMIT</span></button>
+                </form>
+                   </div>
+                </div>
+                <div class="product-style">
+                    
+                </div>
             </section>
 
+            <section class>
         </main>
         <footer>
             <!--<div class="footer-line">
