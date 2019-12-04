@@ -2,10 +2,7 @@
 body 
 {
     margin: 0 auto;
-    position: relative;
-    padding: 10px;
-    width: 1438px;
-    height: 10150px;
+    max-width: 100%;
     background: #FFFFFF;
 }
 
@@ -16,7 +13,7 @@ li
 
 .header-line 
 {
-    position: absolute;
+   
     width: 1438px;
     left: 0%;
     right: 0%;
